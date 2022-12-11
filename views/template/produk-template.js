@@ -1,0 +1,3 @@
+const createProdukItemTemplate = (content)=>
+`
+`

@@ -1,0 +1,576 @@
+/* Color declaration */
+:root {
+    --primary: ;
+    --secondary-one: ;
+    --secondary-two: ;
+    --black: ;
+    --white: ;
+    --grey: ;
+
+    --font-1: ;
+    --font-2: ;
+}
+
+/* Font Declaration */
+.header1 {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header3 {
+    font-size: 20px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.body1 {
+    font-size: 16px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+
+.body2 {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+/* End Font Declaration */
+
+
+/* text color declaration */
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary-one {
+    color: var(--secondary-one);
+}
+
+.color-secondary-two {
+    color: var(--secondary-two);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+/* End Text Color Declaration */
+
+
+
+/* Button Declaration */
+.button-layout {
+    background-color: var(--secondary-one);
+    border-radius: 24px;
+    color: var(--white);
+    font-family: var(--font-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 24px;
+    letter-spacing: normal;
+    text-transform: none;
+    transition: .2s ease;
+    line-height: normal;
+}
+
+.button-layout:hover,
+.button-layout.footer-button:hover {
+    filter: brightness(.90);
+}
+/* End Button Declaration */
+
+/* Utils */
+
+/* End Utils */
+
+
+/* Navbar */
+.navbar-scrolled {
+    background-color: var(--accent) !important;
+}
+
+.nav-link{
+    opacity: 0.85;
+    color: white!important;
+
+}
+
+.nav-link:hover{
+    opacity: 1;
+    color :#0042a6!important;
+    background-color: #FFD600;
+    transition: background-color 1s ease 0s;
+    border-radius: 10px;
+
+    
+}
+
+/* Header */
+.header-bg {
+    background-color: #001E6C;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.image-header{
+    border-radius: 60px 10px 0 0;
+}
+
+.search-card{
+    position: absolute;
+    width: 1044px;
+    border-radius: 20px;
+    padding: 40px;
+    bottom: -63px;
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.search-list{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.search-content input{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.search-content img{
+    object-fit: cover;
+}
+
+.search-content button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* content2 */
+#content2 {
+    margin-top: 139px;
+}
+
+.content2-deskripsi{
+    width: 620px;
+}
+
+.content2-image img{
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 13em;
+    margin-left: -10em;
+}
+/* End content2 */
+
+
+/* content3 */
+#content3 {
+    margin-top: 20em;
+}
+
+.card-content3{
+    border-radius: 10px;
+    width: 22em;
+    height: auto;
+    max-height: 488px;
+    object-fit: cover;
+
+}
+
+.image-content3{
+    border-radius: 10px;
+    object-fit: cover;
+}
+/* End content3 */
+
+
+/* content4 */
+#content4 {
+    margin-top: 48px;
+}
+/* End content4 */
+
+
+/* content5 */
+#content5 {
+    margin-top: 48px;
+}
+
+.card-content5 {
+    border-radius: 10px;
+    width: 22em;
+    height: auto;
+    max-height: 488px;
+    object-fit: cover;
+    background: #D9D9D9;
+    -webkit-transition: background 4s ease;
+    -moz-transition: background 4s ease;
+    -ms-transition: background 4s ease;
+    -o-transition: background 4s ease;
+    transition: background 4s ease;
+}
+  
+.card-content5:hover {
+    background-color: bisque;
+}
+
+
+.image-content5{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.deskripsi-content5{
+    width: 21em;
+}
+/* End content5 */
+
+
+/* content6 */
+#content6 {
+    margin-top: 48px;
+}
+
+.deskripsi-content6{
+    position: absolute;
+    width: 572px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.deskripsi-content6 p{
+    width: 464px;
+}
+
+.deskripsi-content6 button{
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.image-content6{
+    width: 100%;
+}
+/* End content6 */
+
+
+/* Daftar Produk - dapro */
+#content7 {
+    margin-top: 48px;
+}
+/* End Daftar Produk - dapro */
+
+
+/* Footer */
+.footer-bg {
+    color: white;
+    border-radius: 250px 0 0 0;
+    background-color: #001E6C;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+}
+
+.footer-list{
+    list-style: none;
+    width: 24em;
+}
+
+.footer-deskripsi button{
+    width:8em;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #FFD600;
+    color: black;
+}
+
+
+.footer-button {
+    font-size: 3.0519rem;
+    font-family: var(--font-1);
+    font-weight: 400;
+}
+
+.sosial-footer{
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 767.98px) {
+
+
+    /* Font Declaration */
+    .header1 {
+        font-size: 26px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header2 {
+        font-size: 22px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header3 {
+        font-size: 18px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .body1 {
+        font-size: 14px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+
+    .body2 {
+        font-size: 10px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+    /* End Font Declaration */
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+    .image-header{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .search-card{
+        width: 100%;
+        left: 0;
+    }
+
+
+    /* content2 */
+
+    .content2-deskripsi{
+        width: 100%;
+    }
+
+    .content2-image img{
+        margin-top: 0;
+        margin-left: 0;
+        position: relative;
+    }
+
+    /* End content2 */
+
+
+    /* content3 */
+    #content3{
+        margin-top: 3em;
+    }
+
+    .card-content3{
+        width: 100%;
+        margin: 0;
+    }
+    /* End content3 */
+
+
+    /* content4 */
+
+    /* End content4 */
+
+
+    /* content5 */
+
+    /* End content5 */
+
+
+    /* content6 */
+    .deskripsi-content6{
+        position: relative;
+        width: 100%;
+    }
+    
+    .deskripsi-content6 p{
+        width: 100%;
+    }
+
+    .image-content6{
+        border-radius: 10px;
+        width: 100%;
+    }
+    /* End content6 */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    /* Footer */
+    .button-layout.footer-button {
+        font-size: 2.027rem !important;
+    }
+    .footer-bg{
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    #layoutDefault,
+    #layoutDefault_footer {
+        overflow-x: hidden;
+    }
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+    .navbar {
+        background-color: var(--accent) !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Header */
+    .header-bg {
+        height: auto;
+    }
+
+    
+
+
+
+    /* content2 */
+
+    /* End content2 */
+
+
+    /* content3 */
+
+    /* End content3 */
+
+
+    /* content4 */
+
+    /* End content4 */
+
+
+    /* content5 */
+
+    /* End content5 */
+
+
+    /* content6 */
+
+    /* End content6 */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+
+    /* Footer */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+
+
+    
+
+
+
+    /* content2 */
+
+    .content2-image img{
+        position: relative;
+        margin:0;
+    }
+    /* End content2 */
+
+
+    /* content3 */
+
+    #content3{
+        margin-top: 50px;
+    }
+    /* End content3 */
+
+
+    /* content4 */
+
+    /* End content4 */
+
+
+    /* content5 */
+
+    /* End content5 */
+
+
+    /* content6 */
+    .image-content6{
+        border-radius: 10px;
+        margin-bottom: 2px;
+    }
+    .deskripsi-content6{
+        width: 100%;
+        position: relative;
+    }
+    /* End content6 */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    
+    /* Footer */
+
+}

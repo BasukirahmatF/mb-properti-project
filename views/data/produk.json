@@ -1,0 +1,101 @@
+{
+    "produk_1" :[
+        {
+            "id":"produk-1",
+            "nama": "Rumaitha2",
+            "lokasi":"Lebak Bulus",
+            "jarak": "3 Km",
+            "deskripsi": "3 KM ke MRT Lebak Bulus Jakarta Selatan" 
+        }
+    ],
+    "produk_2" :[
+        {
+            "id":"produk-2",
+            "nama":"Rumaitha3",
+            "lokasi":"Lebak Bulus",
+            "jarak": "6 Km",
+            "deskripsi": "6 KM ke MRT Lebak Bulus Jakarta Selatan" 
+        }
+    ],
+    "produk_3" :[
+        {
+            "id":"produk-3",
+            "nama":"Pesona Azalea",
+            "lokasi":"Lebak Bulus",
+            "jarak": "4 KM",
+            "deskripsi": "4KM ke MRT Lebak Bulus Jakarta Selatan" 
+        }
+    ],
+    "produk_4" :[
+        {
+            "id":"produk-4",
+            "nama":"Pesona Aglonema",
+            "lokasi":"Lebak Bulus, Jakarta Selatan ",
+            "jarak": "3 Km",
+            "deskripsi": "3KM ke MRT Lebak Bulus Jakarta Selatan" 
+        }
+    ],
+    "produk_5" :[
+        {
+            "id":"produk-5",
+            "nama":"Tanjung Barat Cluster",
+            "lokasi":"Tanjung Barat",
+            "jarak": "1 Km",
+            "deskripsi": "Dekat Tol TB Simatupang" 
+        }
+    ],
+    "produk_6" :[
+        {
+            "id":"produk-6",
+            "nama":"Gl 8 Residence",
+            "lokasi":"Jl. Gunung Indah, Tanggerang Selatan",
+            "jarak": "500 Meter",
+            "deskripsi": "7 Menit Ke MRT Lebak Bulus" 
+        }
+    ],
+    "produk_7" :[
+        {
+            "id":"produk-7",
+            "nama":"MBR Residence",
+            "lokasi":"Jl. Mekar Baru Raya Tanggerang Selatan",
+            "jarak": "500 Meter",
+            "deskripsi": "Cirendeu, Tangerang Selatan 8 Menit Ke MRT" 
+        }
+    ],
+    "produk_8" :[
+        {
+            "id":"produk-8",
+            "nama":"MB Residence",
+            "lokasi":"Jl. Mekar Baru Raya Tanggerang Selatan",
+            "jarak": "500 Meter",
+            "deskripsi": "Cirendeu, Tangerang Selatan 8 Menit Ke MRT" 
+        }
+    ],
+    "produk_9" :[
+        {
+            "id":"produk-9",
+            "nama":"LB Residence",
+            "lokasi":"Lebak Bulus, Jakarta Selatan",
+            "jarak": "800 Meter",
+            "deskripsi": "Hanya 800 Meter Ke MRT Lebak Bulus" 
+        }
+    ],
+    "produk_10" :[
+        {
+            "id":"produk-10",
+            "nama":"Eleven Residence",
+            "lokasi":"Jl. Gunung Indah, Tanggerang Selatan",
+            "jarak": "800 Meter",
+            "deskripsi": "10 Menit Ke MRT Lebak Bulus" 
+        }
+    ],
+    "produk_11" :[
+        {
+            "id":"produk-11",
+            "nama":"Legenda Residence",
+            "lokasi":"Jl. Padat Karya, Cibubur",
+            "jarak": "2 Km",
+            "deskripsi": "Hanya 2 KM ke Sekolah Syifa Budi" 
+        }
+    ]
+}
