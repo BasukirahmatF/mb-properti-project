@@ -97,9 +97,8 @@
                                 <h1 class="mb-lg-3">Search Your Place From Lebak Bulus Jakarta Selatan</h1>
                                 <div class="search-list d-lg-flex flex-lg-row">
                                     <div class="search-content d-lg-flex flex-lg-row">
-                                        <input type="text" placeholder="Location"> <img class="my-lg-auto mr-lg-3" src="../front_assets/img/locationIcon.png" width="24" height="24" alt="">
-                                        <input type="text" placeholder="Distance"> <img class="my-lg-auto mr-lg-3" src="../front_assets/img/Home.png" width="24" height="24" alt="">
-                                        <button>Search Now</button>
+                                        <input type="text" placeholder="Distance" id="search-home"> <img class="my-lg-auto mr-lg-3" src="../front_assets/img/Home.png" width="24" height="24" alt="">
+                                        <button id="submit-search-home">Search Now</button>
                                     </div>
 
                                 </div>
@@ -133,7 +132,7 @@
 
                 <section id="content3">
                     <div class="container px-1 px-md-2">
-                        <div class="list-content3 row mx-lg-auto mx-md-auto d-lg-flex flex-lg-column d-flex flex-row">
+                        <div class="list-content3 row mx-lg-auto justify-content-center mx-md-auto d-lg-flex flex-lg-row d-flex flex-row">
                             <div class="card-content3 d-lg-flex flex-lg-row d-flex flex-column">
                                 <div class="d-lg-flex flex-lg-column p-lg-2 m-auto">
                                     <img class="image-content3" src="../front_assets/img/kontraktor.png" width="350" height="350" alt="">
@@ -147,7 +146,7 @@
                                 </div>
                             </div>
 
-                            <div class="card-content3 d-lg-flex flex-lg-row d-flex flex-column mx-md-auto">
+                            <div class="card-content3 d-lg-flex flex-lg-row d-flex flex-column mx-lg-0 mx-md-auto">
                                 <div class="d-lg-flex flex-lg-column p-lg-2 m-auto ">
                                     <img class="image-content3" src="../front_assets/img/developer.png" width="350" height="350" alt="">
                                     <h2 class="mx-lg-auto text-center">Developer</h2>
@@ -158,10 +157,10 @@
                 </section>
 
                 <section id="content4">
-                    <div class="container px-1 px-md-2">
-                        <div class="p-3">
-                            <h1>We present the idea with impressive details.</h1>
-                            <p>
+                    <div class="container px-1 px-md-2 d-flex">
+                        <div class="p-3 m-auto">
+                            <h1 class="text-center">We present the idea with impressive details.</h1>
+                            <p class="text-center">
                                 Vivid colors and abstract patterns, combined with unique uses of light, textures, and space, create an outdoor space that magnifies...
                                 Vivid colors and abstract patterns, combined with unique uses of light, textures, and space, create an outdoor space that magnifies...
                             </p>
@@ -171,7 +170,7 @@
 
                 <section id="content5">
                     <div class="container px-5 px-md-5">
-                        <h1>Daftar Harga</h1>
+                        <h1>Our Project</h1>
                         <div class="row d-lg-flex flex-lg-row justify-content-between d-none">
                             <div class="card-content5 d-lg-flex flex-lg-column">
                                 <div class="d-lg-flex flex-lg-column p-lg-2">
@@ -381,5 +380,12 @@
 
     <!-- Custom -->
     <script src="../front_assets/js/script.js"></script>
+    <script>
+
+        $('#submit-search-home').on('click',(e)=>{
+            let valueSearch = $('#search-home').val()
+            window.location.href = 'produk.html' + `?id=${valueSearch}`;
+        })
+    </script>
 </body>
 </html>

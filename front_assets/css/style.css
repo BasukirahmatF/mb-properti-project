@@ -178,7 +178,6 @@
 .content2-image img{
     border-radius: 20px;
     object-fit: cover;
-    position: absolute;
     margin-top: 13em;
     margin-left: -10em;
 }
@@ -187,7 +186,7 @@
 
 /* content3 */
 #content3 {
-    margin-top: 20em;
+    margin-top: 10em;
 }
 
 .card-content3{
@@ -203,12 +202,20 @@
     border-radius: 10px;
     object-fit: cover;
 }
+.list-content3{
+    gap: 10px;
+}
 /* End content3 */
 
 
 /* content4 */
 #content4 {
     margin-top: 48px;
+}
+#content4 .container {
+    height: 263px;
+    background-color: #B1C3F2;
+    border-radius: 40px;
 }
 /* End content4 */
 
@@ -407,7 +414,9 @@
 
 
     /* content4 */
-
+    #content4 .container {
+        border-radius: 0;
+    }
     /* End content4 */
 
 
