@@ -138,7 +138,8 @@
     width: 1044px;
     border-radius: 20px;
     padding: 40px;
-    bottom: -63px;
+    top: 88%;
+    z-index: 100;
     background-color: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -163,7 +164,17 @@
     color: white;
 }
 
+.list-header{
+    display: none;
+}
 
+.list-group-item{
+    width: 20%;
+}
+
+#myUL .list-group-item{
+    display: none;
+}
 
 
 /* content2 */
