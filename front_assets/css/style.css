@@ -453,6 +453,12 @@
     .footer-bg{
         border-radius: 10px;
     }
+    /* produk */
+    .card-home{
+      margin-bottom: 18px;   
+    }
+
+
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -479,9 +485,6 @@
     .header-bg {
         height: auto;
     }
-
-    
-
 
 
     /* content2 */
@@ -515,6 +518,8 @@
 
 
     /* Footer */
+
+
 
 }
 
@@ -581,5 +586,11 @@
 
     
     /* Footer */
+
+    /* produk */
+
+    .card-home{
+        width: 20em;
+    }
 
 }
